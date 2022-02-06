@@ -1,4 +1,3 @@
 # Somethings Just Like This...
 
-A blog by  [Dheeraj Lalwani](https://twitter.com/DhiruCodes)
-
+A blog where [Dheeraj Lalwani](https://twitter.com/DhiruCodes) struggles (attempts?) to write about his experiences, thoughts and feelings.
