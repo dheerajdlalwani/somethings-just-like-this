@@ -65,6 +65,11 @@ section.main ol {
   flex-direction: column-reverse;
 }
 
+section.main h2 {
+  align-self: flex-start;
+  font-size: 1.25em;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 1.1em;
@@ -80,5 +85,8 @@ section.main ol {
   section.main p,
   section.index p {
     text-align: justify;
+  }
+  section.main h2 {
+    align-self: center;
   }
 }
