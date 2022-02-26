@@ -38,7 +38,11 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #404040;
+  background-color: #404040;
+  color: #ffffff;
+  padding: 0.25em 0.5em;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 section.main {
