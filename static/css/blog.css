@@ -53,14 +53,22 @@ section.main p {
   text-align: justify;
 }
 
-section.main ol {
+section.main ul {
   margin: 1em;
   padding: 1em;
   display: flex;
   flex-direction: column-reverse;
+  list-style-type: none;
 }
 
-section.main ol li a {
+section.main ul li {
+  padding: 0.25em;
+  margin: 0.25em;
+  display: flex;
+  flex-direction: column;
+}
+
+section.main ul li a {
   color: #404040;
 }
 
@@ -79,5 +87,14 @@ section.main ol li a {
   section.main p,
   section.index p {
     text-align: justify;
+  }
+  section.main ul li a {
+    word-wrap: break-word;
+    /* word-break: break-all; */
+  }
+  section.main ul {
+    margin: 0.25em;
+    padding: 0.25em;
+    margin-top: 1em;
   }
 }

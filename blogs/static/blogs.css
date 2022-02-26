@@ -62,11 +62,15 @@ section.main p a {
   color: #404040;
 }
 
-section.main ol {
+section.main ul {
   margin: 1em;
   padding: 1em;
   display: flex;
   flex-direction: column-reverse;
+}
+
+section.main h1 {
+  text-align: center;
 }
 
 section.main h2 {
