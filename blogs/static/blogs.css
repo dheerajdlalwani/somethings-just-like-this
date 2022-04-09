@@ -78,6 +78,20 @@ section.main h2 {
   font-size: 1.25em;
 }
 
+section.poem {
+  /* border: solid red 2px; */
+  align-self: center;
+  text-align: center;
+}
+
+section.poem p {
+  text-align: center;
+}
+
+span.author {
+  margin: 1em;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 1.1em;
