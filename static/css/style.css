@@ -29,7 +29,13 @@ header nav {
 }
 
 header nav ul {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
+}
+
+header nav ul li {
+  margin: 1em;
 }
 
 header nav ul li a {
