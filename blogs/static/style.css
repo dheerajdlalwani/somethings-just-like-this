@@ -101,7 +101,7 @@ span.author {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0.5em;
+    padding: 1.5em 0.5em;
   }
   header nav {
     width: 100%;
