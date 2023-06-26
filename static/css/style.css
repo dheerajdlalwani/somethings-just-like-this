@@ -84,7 +84,7 @@ section.main ul li a {
   }
   header {
     width: 100vw;
-    border: solid red 2px;
+    /* border: solid red 2px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@ section.main ul li a {
   header nav ul {
     display: flex;
     flex-direction: row;
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 100%;
     justify-content: center;
   }
